@@ -1,0 +1,70 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+
+.encabezado {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #8e95ff, #ff0000);
+    color: #fff;
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.encabezado input[type="text"] {
+    padding: 10px;
+    width: 200px;
+}
+
+.encabezado button {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.encabezado button:hover {
+    background-color: #45a049;
+}
+
+.container {
+    margin: 0px 290px;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.ciudades li {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+#wicon {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#descripcion {
+    font-style: italic;
+}
+
+#grados {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#ciudad {
+    font-size: 20px;
+}
